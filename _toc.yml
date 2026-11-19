@@ -1,0 +1,51 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+# To publish online: ghp-import -n -p -f _build/html
+
+format: jb-book
+root: _pages/intro
+parts:
+- caption: Tutorials
+  numbered: false
+  chapters:
+  
+  - file: _pages/0_Excel
+    sections:
+    - glob: _pages/0*
+
+  - file: _pages/1_Probability
+    sections:
+    - glob: _pages/1*
+
+  - file: _pages/2_Descriptive_Stats
+    sections:
+    - glob: _pages/2*
+    
+  - file: _pages/3_Probability_Distributions
+    sections:
+    - glob: _pages/3*
+    
+  - file: _pages/4_Inferential_Stats
+    sections:
+    - glob: _pages/4*
+    
+  - file: _pages/5_Correlation_and_regression
+    sections:
+    - glob: _pages/5*  
+    
+  - file: _pages/67_Hypothesis_testing
+    sections:
+    - glob: _pages/6*
+    
+  - file: _pages/8_Vectors
+    sections:
+    - glob: _pages/8*
+    
+  - file: _pages/9_Matrices
+    sections:
+    - glob: _pages/9*
+    
+  - file: _pages/a_Matrices_cont
+    sections:
+    - glob: _pages/a*
